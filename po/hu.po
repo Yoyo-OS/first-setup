@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the vanilla-first-setup package.
+# This file is distributed under the same license as the yoyo-first-setup package.
 # Benjamin Kőhidi <benstone326@gmail.com>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: vanilla-first-setup\n"
+"Project-Id-Version: yoyo-first-setup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-20 14:24+0100\n"
 "PO-Revision-Date: 2023-02-23 00:28+0000\n"
 "Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/yoyo-os/"
 "first-setup/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -18,145 +18,145 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
-#: data/org.vanillaos.FirstSetup.desktop.in:3
-msgid "Vanilla OS First Setup"
-msgstr "Vanilla OS kezdeti beállítások"
+#: data/org.yoyoos.FirstSetup.desktop.in:3
+msgid "Yoyo OS First Setup"
+msgstr "Yoyo OS kezdeti beállítások"
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:7
-msgid "Tweak your Vanilla OS installation."
-msgstr "Módosítsa a Vanilla OS telepítését."
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:7
+msgid "Tweak your Yoyo OS installation."
+msgstr "Módosítsa a Yoyo OS telepítését."
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:10
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:10
 msgid "No description"
 msgstr "Nincs leírás"
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:26
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:26
 msgid "First release"
 msgstr "Első kiadás"
 
-#: vanilla_first_setup/gtk/default-conn-check.ui:12
-#: vanilla_first_setup/defaults/conn_check.py:75
+#: yoyo_first_setup/gtk/default-conn-check.ui:12
+#: yoyo_first_setup/defaults/conn_check.py:75
 msgid "Checking Connection…"
 msgstr "Csatlakozás ellenőrzése…"
 
-#: vanilla_first_setup/gtk/default-conn-check.ui:13
-#: vanilla_first_setup/defaults/conn_check.py:76
+#: yoyo_first_setup/gtk/default-conn-check.ui:13
+#: yoyo_first_setup/defaults/conn_check.py:76
 msgid "Please wait until the connection check is done."
 msgstr "Kérjük várjon, amíg a kapcsolat ellenőrzése befejeződik."
 
-#: vanilla_first_setup/gtk/default-theme.ui:17
+#: yoyo_first_setup/gtk/default-theme.ui:17
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: vanilla_first_setup/gtk/default-theme.ui:29
+#: yoyo_first_setup/gtk/default-theme.ui:29
 msgid "Dark"
 msgstr "Sötét"
 
-#: vanilla_first_setup/gtk/default-theme.ui:42
+#: yoyo_first_setup/gtk/default-theme.ui:42
 msgid "Color Scheme"
 msgstr "Színek"
 
-#: vanilla_first_setup/gtk/default-theme.ui:43
+#: yoyo_first_setup/gtk/default-theme.ui:43
 msgid "Choose a color scheme for your system."
 msgstr "Válasszon színeket a rendszeréhez."
 
-#: vanilla_first_setup/gtk/default-theme.ui:49
+#: yoyo_first_setup/gtk/default-theme.ui:49
 msgid "Next"
 msgstr "Következő"
 
-#: vanilla_first_setup/gtk/default-welcome.ui:12
+#: yoyo_first_setup/gtk/default-welcome.ui:12
 msgid "Welcome!"
 msgstr "Üdv!"
 
-#: vanilla_first_setup/gtk/default-welcome.ui:13
+#: yoyo_first_setup/gtk/default-welcome.ui:13
 msgid "Make your choices, this wizard will take care of everything."
 msgstr "Csak válasszon, a varázsló mindenről gondoskodik."
 
-#: vanilla_first_setup/gtk/dialog.ui:6
+#: yoyo_first_setup/gtk/dialog.ui:6
 msgid "Showing Information"
 msgstr "Információ megjelenítése"
 
-#: vanilla_first_setup/gtk/done.ui:12
+#: yoyo_first_setup/gtk/done.ui:12
 msgid "All done!"
 msgstr "Készen vagyunk!"
 
-#: vanilla_first_setup/gtk/done.ui:13
-msgid "Restart your device to enjoy your Vanilla OS experience."
-msgstr "Indítsa újra a készüléket, hogy élvezhesse a Vanilla OS élményt."
+#: yoyo_first_setup/gtk/done.ui:13
+msgid "Restart your device to enjoy your Yoyo OS experience."
+msgstr "Indítsa újra a készüléket, hogy élvezhesse a Yoyo OS élményt."
 
-#: vanilla_first_setup/gtk/layout-yes-no.ui:36
+#: yoyo_first_setup/gtk/layout-yes-no.ui:36
 msgid "Yes, enable it"
 msgstr "Igen, engedélyezze"
 
-#: vanilla_first_setup/gtk/post-script.ui:11
+#: yoyo_first_setup/gtk/post-script.ui:11
 msgid "Finalizing"
 msgstr "Véglegesítés"
 
-#: vanilla_first_setup/gtk/post-script.ui:12
+#: yoyo_first_setup/gtk/post-script.ui:12
 msgid "Your device will be ready soon."
 msgstr "Az eszköze hamarosan készen áll."
 
-#: vanilla_first_setup/gtk/progress.ui:70
+#: yoyo_first_setup/gtk/progress.ui:70
 msgid "Installing..."
 msgstr "Telepítés…"
 
-#: vanilla_first_setup/gtk/progress.ui:91
+#: yoyo_first_setup/gtk/progress.ui:91
 msgid "Show Console output"
 msgstr "Konzol kimenet megjelenítése"
 
-#: vanilla_first_setup/gtk/progress.ui:106
+#: yoyo_first_setup/gtk/progress.ui:106
 msgid "Show Slideshow"
 msgstr "Diavetítés megjelenítése"
 
-#: vanilla_first_setup/gtk/tour.ui:27
+#: yoyo_first_setup/gtk/tour.ui:27
 msgid "Read More"
 msgstr "Több"
 
-#: vanilla_first_setup/gtk/window.ui:25
+#: yoyo_first_setup/gtk/window.ui:25
 msgid "Back"
 msgstr "Vissza"
 
-#: vanilla_first_setup/defaults/conn_check.py:66
+#: yoyo_first_setup/defaults/conn_check.py:66
 msgid "No Internet Connection!"
 msgstr "Nincs internetkapcsolat!"
 
-#: vanilla_first_setup/defaults/conn_check.py:67
+#: yoyo_first_setup/defaults/conn_check.py:67
 msgid "First Setup requires an active internet connection"
 msgstr "A kezdő beállítások elvégzéséhez internetkapcsolat szükséges"
 
-#: vanilla_first_setup/layouts/preferences.py:75
+#: yoyo_first_setup/layouts/preferences.py:75
 msgid "Please select at least one option."
 msgstr "Kérjük, válasszon legalább egy lehetőséget."
 
-#: vanilla_first_setup/views/done.py:41
+#: yoyo_first_setup/views/done.py:41
 msgid "Restart your device to enjoy your {} experience."
 msgstr "Indítsa újra a készüléket, hogy élvezhesse a {} élményt."
 
-#: vanilla_first_setup/views/done.py:63
+#: yoyo_first_setup/views/done.py:63
 msgid "Something went wrong"
 msgstr "Valami hiba történt"
 
-#: vanilla_first_setup/views/done.py:64
+#: yoyo_first_setup/views/done.py:64
 msgid "Please contact the distribution developers."
 msgstr "Kérjük, lépjen kapcsolatba a disztribúció fejlesztőivel."
 
-#: vanilla_first_setup/main.py:51
+#: yoyo_first_setup/main.py:51
 msgid "Run a post script"
 msgstr "Telepítést követő szkript futtatása"
 
-#: vanilla_first_setup/window.py:67
+#: yoyo_first_setup/window.py:67
 msgid "Done!"
 msgstr "Kész!"
 
-#: vanilla_first_setup/window.py:67
+#: yoyo_first_setup/window.py:67
 msgid "Your device is ready to use."
 msgstr "Az eszköze használatra kész."
 
-#: vanilla_first_setup/window.py:68
+#: yoyo_first_setup/window.py:68
 msgid "Error!"
 msgstr "Hiba!"
 
-#: vanilla_first_setup/window.py:68
+#: yoyo_first_setup/window.py:68
 msgid "Something went wrong."
 msgstr "Valami hiba történt."
 
@@ -164,10 +164,10 @@ msgstr "Valami hiba történt."
 #~ msgstr "Kapcsolódjon be"
 
 #~ msgid ""
-#~ "Vanilla OS is a community project. You can contribute to the project by "
+#~ "Yoyo OS is a community project. You can contribute to the project by "
 #~ "reporting bugs, suggesting new features, or even by writing code."
 #~ msgstr ""
-#~ "A Vanilla OS egy közösségi projekt. Hozzájárulhat a projekthez hibák "
+#~ "A Yoyo OS egy közösségi projekt. Hozzájárulhat a projekthez hibák "
 #~ "bejelentésével, új funkciók javaslataival vagy akár kód írásával."
 
 #~ msgid "Join The Community"
@@ -184,20 +184,20 @@ msgstr "Valami hiba történt."
 #~ msgstr "Immutable és Atomic"
 
 #~ msgid ""
-#~ "Vanilla OS is an immutable and atomic Linux distribution. It is based on "
+#~ "Yoyo OS is an immutable and atomic Linux distribution. It is based on "
 #~ "Ubuntu and uses ABRoot to provide atomic transactions."
 #~ msgstr ""
-#~ "A Vanilla OS egy Immutable és Atomic Linux-disztribúció. Az Ubuntun "
+#~ "A Yoyo OS egy Immutable és Atomic Linux-disztribúció. Az Ubuntun "
 #~ "alapul, és az ABRoot-ot használja az Atomic tranzakciók biztosítására."
 
 #~ msgid "Sub-System Ready To Go"
 #~ msgstr "Az alrendszer készen áll"
 
 #~ msgid ""
-#~ "Vanilla OS comes with Apx, a new package manager which installs software "
+#~ "Yoyo OS comes with Apx, a new package manager which installs software "
 #~ "in integrated containers to prevent host compromise."
 #~ msgstr ""
-#~ "A Vanilla OS egy új csomagkezelővel, az Apx-szel érkezik, amely integrált "
+#~ "A Yoyo OS egy új csomagkezelővel, az Apx-szel érkezik, amely integrált "
 #~ "konténerekbe telepíti a szoftvereket, hogy megakadályozza az állomás "
 #~ "kompromittálódását."
 
@@ -311,12 +311,12 @@ msgstr "Valami hiba történt."
 #~ msgstr "A védjegyezett illesztőprogramokról"
 
 #~ msgid ""
-#~ "A proprietary driver has private code that neither Vanilla OS nor Ubuntu "
+#~ "A proprietary driver has private code that neither Yoyo OS nor Ubuntu "
 #~ "developers can review.\n"
 #~ "\n"
 #~ "Security and other updates are dependent on the driver vendor."
 #~ msgstr ""
-#~ "A védjegyezett illesztőprogramnak privát kódja van, amelyet sem a Vanilla "
+#~ "A védjegyezett illesztőprogramnak privát kódja van, amelyet sem a Yoyo "
 #~ "OS, sem az Ubuntu fejlesztői nem tudnak áttekinteni.\n"
 #~ "\n"
 #~ "A biztonsági és egyéb frissítések az illesztőprogram gyártójától függnek."

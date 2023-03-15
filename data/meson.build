@@ -4,7 +4,7 @@ install_data(
 )
 
 install_data(
-    'org.vanillaos.FirstSetup.NewUser.desktop',
+    'org.yoyoos.FirstSetup.NewUser.desktop',
     install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
@@ -19,8 +19,8 @@ install_data(
 )
 
 desktop_file = i18n.merge_file(
-  input: 'org.vanillaos.FirstSetup.desktop.in',
-  output: 'org.vanillaos.FirstSetup.desktop',
+  input: 'org.yoyoos.FirstSetup.desktop.in',
+  output: 'org.yoyoos.FirstSetup.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
@@ -35,8 +35,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-  input: 'org.vanillaos.FirstSetup.appdata.xml.in',
-  output: 'org.vanillaos.FirstSetup.appdata.xml',
+  input: 'org.yoyoos.FirstSetup.appdata.xml.in',
+  output: 'org.yoyoos.FirstSetup.appdata.xml',
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -49,7 +49,7 @@ if appstream_util.found()
   )
 endif
 
-install_data('org.vanillaos.FirstSetup.gschema.xml',
+install_data('org.yoyoos.FirstSetup.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Yoyo OS First Setup
+Exec=yoyo-first-setup
+Icon=org.yoyoos.FirstSetup
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

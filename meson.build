@@ -1,4 +1,4 @@
-project('org.vanillaos.FirstSetup',
+project('org.yoyoos.FirstSetup',
           version: '1.5.5',
     meson_version: '>= 0.59.0',
   default_options: [ 'warning_level=2',
@@ -11,7 +11,7 @@ i18n = import('i18n')
 gnome = import('gnome')
 
 subdir('data')
-subdir('vanilla_first_setup')
+subdir('yoyo_first_setup')
 subdir('po')
 
 gnome.post_install(

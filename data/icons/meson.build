@@ -1,4 +1,4 @@
-application_id = 'org.vanillaos.FirstSetup'
+application_id = 'org.yoyoos.FirstSetup'
 
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
@@ -19,18 +19,18 @@ install_data(
 
 
 install_data(
-    join_paths(actions_dir, 'vanilla-container-terminal-symbolic.svg'),
+    join_paths(actions_dir, 'yoyo-container-terminal-symbolic.svg'),
     install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', 'scalable', 'actions')
 )
 install_data(
-    join_paths(actions_dir, 'vanilla-package-symbolic.svg'),
+    join_paths(actions_dir, 'yoyo-package-symbolic.svg'),
     install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', 'scalable', 'actions')
 )
 install_data(
-    join_paths(actions_dir, 'vanilla-puzzle-piece-symbolic.svg'),
+    join_paths(actions_dir, 'yoyo-puzzle-piece-symbolic.svg'),
     install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', 'scalable', 'actions')
 )
 install_data(
-    join_paths(actions_dir, 'vanilla-history-undo-symbolic.svg'),
+    join_paths(actions_dir, 'yoyo-history-undo-symbolic.svg'),
     install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', 'scalable', 'actions')
 )

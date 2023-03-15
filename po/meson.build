@@ -1,1 +1,1 @@
-i18n.gettext('vanilla-first-setup', preset: 'glib')
+i18n.gettext('yoyo-first-setup', preset: 'glib')

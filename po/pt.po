@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the vanilla-first-setup package.
+# This file is distributed under the same license as the yoyo-first-setup package.
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2023.
 # ssantos <ssantos@web.de>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: vanilla-first-setup\n"
+"Project-Id-Version: yoyo-first-setup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-20 14:24+0100\n"
 "PO-Revision-Date: 2023-03-11 13:37+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/yoyo-os/"
 "first-setup/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -19,147 +19,147 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.2-dev\n"
 
-#: data/org.vanillaos.FirstSetup.desktop.in:3
-msgid "Vanilla OS First Setup"
-msgstr "Primeira configuração do Vanilla OS"
+#: data/org.yoyoos.FirstSetup.desktop.in:3
+msgid "Yoyo OS First Setup"
+msgstr "Primeira configuração do Yoyo OS"
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:7
-msgid "Tweak your Vanilla OS installation."
-msgstr "Modifique a sua instalação do Vanilla OS."
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:7
+msgid "Tweak your Yoyo OS installation."
+msgstr "Modifique a sua instalação do Yoyo OS."
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:10
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:10
 msgid "No description"
 msgstr "Sem descrição"
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:26
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:26
 msgid "First release"
 msgstr "Primeiro lançamento"
 
-#: vanilla_first_setup/gtk/default-conn-check.ui:12
-#: vanilla_first_setup/defaults/conn_check.py:75
+#: yoyo_first_setup/gtk/default-conn-check.ui:12
+#: yoyo_first_setup/defaults/conn_check.py:75
 msgid "Checking Connection…"
 msgstr "A verificar ligação…"
 
-#: vanilla_first_setup/gtk/default-conn-check.ui:13
-#: vanilla_first_setup/defaults/conn_check.py:76
+#: yoyo_first_setup/gtk/default-conn-check.ui:13
+#: yoyo_first_setup/defaults/conn_check.py:76
 msgid "Please wait until the connection check is done."
 msgstr "Aguarde até a verificação da ligação estar concluída."
 
-#: vanilla_first_setup/gtk/default-theme.ui:17
+#: yoyo_first_setup/gtk/default-theme.ui:17
 msgid "Default"
 msgstr "Predefinição"
 
-#: vanilla_first_setup/gtk/default-theme.ui:29
+#: yoyo_first_setup/gtk/default-theme.ui:29
 msgid "Dark"
 msgstr "Escuro"
 
-#: vanilla_first_setup/gtk/default-theme.ui:42
+#: yoyo_first_setup/gtk/default-theme.ui:42
 msgid "Color Scheme"
 msgstr "Esquema de cores"
 
-#: vanilla_first_setup/gtk/default-theme.ui:43
+#: yoyo_first_setup/gtk/default-theme.ui:43
 msgid "Choose a color scheme for your system."
 msgstr "Escolha um esquema de cores para o seu sistema."
 
-#: vanilla_first_setup/gtk/default-theme.ui:49
+#: yoyo_first_setup/gtk/default-theme.ui:49
 msgid "Next"
 msgstr "Seguinte"
 
-#: vanilla_first_setup/gtk/default-welcome.ui:12
+#: yoyo_first_setup/gtk/default-welcome.ui:12
 msgid "Welcome!"
 msgstr "Bem-vindo!"
 
-#: vanilla_first_setup/gtk/default-welcome.ui:13
+#: yoyo_first_setup/gtk/default-welcome.ui:13
 msgid "Make your choices, this wizard will take care of everything."
 msgstr "Faça as suas escolhas, este assistente cuidará de tudo."
 
-#: vanilla_first_setup/gtk/dialog.ui:6
+#: yoyo_first_setup/gtk/dialog.ui:6
 msgid "Showing Information"
 msgstr "A mostrar informação"
 
-#: vanilla_first_setup/gtk/done.ui:12
+#: yoyo_first_setup/gtk/done.ui:12
 msgid "All done!"
 msgstr "Tudo pronto!"
 
-#: vanilla_first_setup/gtk/done.ui:13
-msgid "Restart your device to enjoy your Vanilla OS experience."
+#: yoyo_first_setup/gtk/done.ui:13
+msgid "Restart your device to enjoy your Yoyo OS experience."
 msgstr ""
-"Reinicie o seu dispositivo para desfrutar da sua experiência com o Vanilla "
+"Reinicie o seu dispositivo para desfrutar da sua experiência com o Yoyo "
 "OS."
 
-#: vanilla_first_setup/gtk/layout-yes-no.ui:36
+#: yoyo_first_setup/gtk/layout-yes-no.ui:36
 msgid "Yes, enable it"
 msgstr "Sim, ativar"
 
-#: vanilla_first_setup/gtk/post-script.ui:11
+#: yoyo_first_setup/gtk/post-script.ui:11
 msgid "Finalizing"
 msgstr "A finalizar"
 
-#: vanilla_first_setup/gtk/post-script.ui:12
+#: yoyo_first_setup/gtk/post-script.ui:12
 msgid "Your device will be ready soon."
 msgstr "O seu dispositivo estará pronto em breve."
 
-#: vanilla_first_setup/gtk/progress.ui:70
+#: yoyo_first_setup/gtk/progress.ui:70
 msgid "Installing..."
 msgstr "A instalar..."
 
-#: vanilla_first_setup/gtk/progress.ui:91
+#: yoyo_first_setup/gtk/progress.ui:91
 msgid "Show Console output"
 msgstr "Mostrar saída da consola"
 
-#: vanilla_first_setup/gtk/progress.ui:106
+#: yoyo_first_setup/gtk/progress.ui:106
 msgid "Show Slideshow"
 msgstr "Mostrar apresentação"
 
-#: vanilla_first_setup/gtk/tour.ui:27
+#: yoyo_first_setup/gtk/tour.ui:27
 msgid "Read More"
 msgstr "Saiba mais"
 
-#: vanilla_first_setup/gtk/window.ui:25
+#: yoyo_first_setup/gtk/window.ui:25
 msgid "Back"
 msgstr "Voltar"
 
-#: vanilla_first_setup/defaults/conn_check.py:66
+#: yoyo_first_setup/defaults/conn_check.py:66
 msgid "No Internet Connection!"
 msgstr "Sem ligação à Internet!"
 
-#: vanilla_first_setup/defaults/conn_check.py:67
+#: yoyo_first_setup/defaults/conn_check.py:67
 msgid "First Setup requires an active internet connection"
 msgstr "A primeira configuração requer uma ligação ativa à Internet"
 
-#: vanilla_first_setup/layouts/preferences.py:75
+#: yoyo_first_setup/layouts/preferences.py:75
 msgid "Please select at least one option."
 msgstr "Selecione pelo menos uma opção."
 
-#: vanilla_first_setup/views/done.py:41
+#: yoyo_first_setup/views/done.py:41
 msgid "Restart your device to enjoy your {} experience."
 msgstr "Reinicie o seu dispositivo para desfrutar da sua experiência {}."
 
-#: vanilla_first_setup/views/done.py:63
+#: yoyo_first_setup/views/done.py:63
 msgid "Something went wrong"
 msgstr "Algo correu mal"
 
-#: vanilla_first_setup/views/done.py:64
+#: yoyo_first_setup/views/done.py:64
 msgid "Please contact the distribution developers."
 msgstr "Entre em contacto com os programadores da distribuição."
 
-#: vanilla_first_setup/main.py:51
+#: yoyo_first_setup/main.py:51
 msgid "Run a post script"
 msgstr "Executar um post script"
 
-#: vanilla_first_setup/window.py:67
+#: yoyo_first_setup/window.py:67
 msgid "Done!"
 msgstr "Concluído!"
 
-#: vanilla_first_setup/window.py:67
+#: yoyo_first_setup/window.py:67
 msgid "Your device is ready to use."
 msgstr "O seu dispositivo está pronto a ser utilizado."
 
-#: vanilla_first_setup/window.py:68
+#: yoyo_first_setup/window.py:68
 msgid "Error!"
 msgstr "Erro!"
 
-#: vanilla_first_setup/window.py:68
+#: yoyo_first_setup/window.py:68
 msgid "Something went wrong."
 msgstr "Algo correu mal."
 

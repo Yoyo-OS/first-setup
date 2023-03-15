@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the yoyo-first-setup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: yoyo-first-setup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-20 14:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.yoyoos.FirstSetup.desktop.in:3
+msgid "Yoyo OS First Setup"
+msgstr ""
+
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:7
+msgid "Tweak your Yoyo OS installation."
+msgstr ""
+
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:10
+msgid "No description"
+msgstr ""
+
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:26
+msgid "First release"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-conn-check.ui:12
+#: yoyo_first_setup/defaults/conn_check.py:75
+msgid "Checking Connection…"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-conn-check.ui:13
+#: yoyo_first_setup/defaults/conn_check.py:76
+msgid "Please wait until the connection check is done."
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-theme.ui:17
+msgid "Default"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-theme.ui:29
+msgid "Dark"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-theme.ui:42
+msgid "Color Scheme"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-theme.ui:43
+msgid "Choose a color scheme for your system."
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-theme.ui:49
+msgid "Next"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-welcome.ui:12
+msgid "Welcome!"
+msgstr ""
+
+#: yoyo_first_setup/gtk/default-welcome.ui:13
+msgid "Make your choices, this wizard will take care of everything."
+msgstr ""
+
+#: yoyo_first_setup/gtk/dialog.ui:6
+msgid "Showing Information"
+msgstr ""
+
+#: yoyo_first_setup/gtk/done.ui:12
+msgid "All done!"
+msgstr ""
+
+#: yoyo_first_setup/gtk/done.ui:13
+msgid "Restart your device to enjoy your Yoyo OS experience."
+msgstr ""
+
+#: yoyo_first_setup/gtk/layout-yes-no.ui:36
+msgid "Yes, enable it"
+msgstr ""
+
+#: yoyo_first_setup/gtk/post-script.ui:11
+msgid "Finalizing"
+msgstr ""
+
+#: yoyo_first_setup/gtk/post-script.ui:12
+msgid "Your device will be ready soon."
+msgstr ""
+
+#: yoyo_first_setup/gtk/progress.ui:70
+msgid "Installing..."
+msgstr ""
+
+#: yoyo_first_setup/gtk/progress.ui:91
+msgid "Show Console output"
+msgstr ""
+
+#: yoyo_first_setup/gtk/progress.ui:106
+msgid "Show Slideshow"
+msgstr ""
+
+#: yoyo_first_setup/gtk/tour.ui:27
+msgid "Read More"
+msgstr ""
+
+#: yoyo_first_setup/gtk/window.ui:25
+msgid "Back"
+msgstr ""
+
+#: yoyo_first_setup/defaults/conn_check.py:66
+msgid "No Internet Connection!"
+msgstr ""
+
+#: yoyo_first_setup/defaults/conn_check.py:67
+msgid "First Setup requires an active internet connection"
+msgstr ""
+
+#: yoyo_first_setup/layouts/preferences.py:75
+msgid "Please select at least one option."
+msgstr ""
+
+#: yoyo_first_setup/views/done.py:41
+msgid "Restart your device to enjoy your {} experience."
+msgstr ""
+
+#: yoyo_first_setup/views/done.py:63
+msgid "Something went wrong"
+msgstr ""
+
+#: yoyo_first_setup/views/done.py:64
+msgid "Please contact the distribution developers."
+msgstr ""
+
+#: yoyo_first_setup/main.py:51
+msgid "Run a post script"
+msgstr ""
+
+#: yoyo_first_setup/window.py:67
+msgid "Done!"
+msgstr ""
+
+#: yoyo_first_setup/window.py:67
+msgid "Your device is ready to use."
+msgstr ""
+
+#: yoyo_first_setup/window.py:68
+msgid "Error!"
+msgstr ""
+
+#: yoyo_first_setup/window.py:68
+msgid "Something went wrong."
+msgstr ""

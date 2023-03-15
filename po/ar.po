@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the vanilla-first-setup package.
+# This file is distributed under the same license as the yoyo-first-setup package.
 # Manjur Muammar Rashidi <mhasanmuammar2@gmail.com>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: vanilla-first-setup\n"
+"Project-Id-Version: yoyo-first-setup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-20 14:24+0100\n"
 "PO-Revision-Date: 2023-02-21 05:05+0000\n"
 "Last-Translator: Manjur Muammar Rashidi <mhasanmuammar2@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/yoyo-os/"
 "first-setup/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -19,146 +19,146 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
-#: data/org.vanillaos.FirstSetup.desktop.in:3
-msgid "Vanilla OS First Setup"
+#: data/org.yoyoos.FirstSetup.desktop.in:3
+msgid "Yoyo OS First Setup"
 msgstr "الإعداد الأولي لنظام التشغيل فانيلا"
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:7
-msgid "Tweak your Vanilla OS installation."
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:7
+msgid "Tweak your Yoyo OS installation."
 msgstr "طوِّع تثبيتك لنظام فانيلا."
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:10
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:10
 msgid "No description"
 msgstr "دون وصف"
 
-#: data/org.vanillaos.FirstSetup.appdata.xml.in:26
+#: data/org.yoyoos.FirstSetup.appdata.xml.in:26
 msgid "First release"
 msgstr "اﻹصدار الأول"
 
-#: vanilla_first_setup/gtk/default-conn-check.ui:12
-#: vanilla_first_setup/defaults/conn_check.py:75
+#: yoyo_first_setup/gtk/default-conn-check.ui:12
+#: yoyo_first_setup/defaults/conn_check.py:75
 msgid "Checking Connection…"
 msgstr "يتحقق من الإتصال…"
 
-#: vanilla_first_setup/gtk/default-conn-check.ui:13
-#: vanilla_first_setup/defaults/conn_check.py:76
+#: yoyo_first_setup/gtk/default-conn-check.ui:13
+#: yoyo_first_setup/defaults/conn_check.py:76
 msgid "Please wait until the connection check is done."
 msgstr "الرجاء الإنتظار لحين الإنتهاء من التحقق بالإتصال."
 
-#: vanilla_first_setup/gtk/default-theme.ui:17
+#: yoyo_first_setup/gtk/default-theme.ui:17
 msgid "Default"
 msgstr "افتراضي"
 
-#: vanilla_first_setup/gtk/default-theme.ui:29
+#: yoyo_first_setup/gtk/default-theme.ui:29
 msgid "Dark"
 msgstr "مظلم"
 
-#: vanilla_first_setup/gtk/default-theme.ui:42
+#: yoyo_first_setup/gtk/default-theme.ui:42
 msgid "Color Scheme"
 msgstr "سمة النظام"
 
-#: vanilla_first_setup/gtk/default-theme.ui:43
+#: yoyo_first_setup/gtk/default-theme.ui:43
 msgid "Choose a color scheme for your system."
 msgstr "اختر سمة لنظامك."
 
-#: vanilla_first_setup/gtk/default-theme.ui:49
+#: yoyo_first_setup/gtk/default-theme.ui:49
 msgid "Next"
 msgstr "التالي"
 
-#: vanilla_first_setup/gtk/default-welcome.ui:12
+#: yoyo_first_setup/gtk/default-welcome.ui:12
 msgid "Welcome!"
 msgstr "مرحبا!"
 
-#: vanilla_first_setup/gtk/default-welcome.ui:13
+#: yoyo_first_setup/gtk/default-welcome.ui:13
 msgid "Make your choices, this wizard will take care of everything."
 msgstr "حدد اختياراتك، سيهتم هذا المساعد بكل شيء."
 
-#: vanilla_first_setup/gtk/dialog.ui:6
+#: yoyo_first_setup/gtk/dialog.ui:6
 msgid "Showing Information"
 msgstr "عرض المعلومات"
 
-#: vanilla_first_setup/gtk/done.ui:12
+#: yoyo_first_setup/gtk/done.ui:12
 msgid "All done!"
 msgstr "تم!"
 
-#: vanilla_first_setup/gtk/done.ui:13
-msgid "Restart your device to enjoy your Vanilla OS experience."
+#: yoyo_first_setup/gtk/done.ui:13
+msgid "Restart your device to enjoy your Yoyo OS experience."
 msgstr "أعد تشغيل الحاسوب للاستمتاع بتجربتك لنظام التشغيل فانيلا."
 
-#: vanilla_first_setup/gtk/layout-yes-no.ui:36
+#: yoyo_first_setup/gtk/layout-yes-no.ui:36
 msgid "Yes, enable it"
 msgstr "نعم، فعّلها"
 
-#: vanilla_first_setup/gtk/post-script.ui:11
+#: yoyo_first_setup/gtk/post-script.ui:11
 msgid "Finalizing"
 msgstr "وضع اللمسات الأخيرة"
 
-#: vanilla_first_setup/gtk/post-script.ui:12
+#: yoyo_first_setup/gtk/post-script.ui:12
 msgid "Your device will be ready soon."
 msgstr "سيصبح جهازك جاهز قريبا."
 
-#: vanilla_first_setup/gtk/progress.ui:70
+#: yoyo_first_setup/gtk/progress.ui:70
 msgid "Installing..."
 msgstr "جارٍ التثبيت ..."
 
-#: vanilla_first_setup/gtk/progress.ui:91
+#: yoyo_first_setup/gtk/progress.ui:91
 msgid "Show Console output"
 msgstr "اعرض مخرجات وحدة التحكم"
 
-#: vanilla_first_setup/gtk/progress.ui:106
+#: yoyo_first_setup/gtk/progress.ui:106
 msgid "Show Slideshow"
 msgstr "اعرض الشريط الجانبي"
 
-#: vanilla_first_setup/gtk/tour.ui:27
+#: yoyo_first_setup/gtk/tour.ui:27
 msgid "Read More"
 msgstr "اقرأ المزيد"
 
-#: vanilla_first_setup/gtk/window.ui:25
+#: yoyo_first_setup/gtk/window.ui:25
 #, fuzzy
 msgid "Back"
 msgstr "تراجع"
 
-#: vanilla_first_setup/defaults/conn_check.py:66
+#: yoyo_first_setup/defaults/conn_check.py:66
 msgid "No Internet Connection!"
 msgstr "لا يوجد إتصال بالإنترنت!"
 
-#: vanilla_first_setup/defaults/conn_check.py:67
+#: yoyo_first_setup/defaults/conn_check.py:67
 msgid "First Setup requires an active internet connection"
 msgstr "تتطلب الخطوة الأولى الاتصال بالإنترنت"
 
-#: vanilla_first_setup/layouts/preferences.py:75
+#: yoyo_first_setup/layouts/preferences.py:75
 msgid "Please select at least one option."
 msgstr "يرجى تحديد خيار واحد على الأقل."
 
-#: vanilla_first_setup/views/done.py:41
+#: yoyo_first_setup/views/done.py:41
 msgid "Restart your device to enjoy your {} experience."
 msgstr "أعد تشغيل الحاسوب للاستمتاع بتجربك لـ{}."
 
-#: vanilla_first_setup/views/done.py:63
+#: yoyo_first_setup/views/done.py:63
 msgid "Something went wrong"
 msgstr "هناك خطأ ما"
 
-#: vanilla_first_setup/views/done.py:64
+#: yoyo_first_setup/views/done.py:64
 msgid "Please contact the distribution developers."
 msgstr "يرجى التواصل مع مطوري التوزيعة."
 
-#: vanilla_first_setup/main.py:51
+#: yoyo_first_setup/main.py:51
 msgid "Run a post script"
 msgstr "شغل السكربت الأولي"
 
-#: vanilla_first_setup/window.py:67
+#: yoyo_first_setup/window.py:67
 msgid "Done!"
 msgstr "انتهى!"
 
-#: vanilla_first_setup/window.py:67
+#: yoyo_first_setup/window.py:67
 msgid "Your device is ready to use."
 msgstr "جهازك جاهز للإستخدام."
 
-#: vanilla_first_setup/window.py:68
+#: yoyo_first_setup/window.py:68
 msgid "Error!"
 msgstr "خطأ!"
 
-#: vanilla_first_setup/window.py:68
+#: yoyo_first_setup/window.py:68
 msgid "Something went wrong."
 msgstr "هناك خطأ ما."
 

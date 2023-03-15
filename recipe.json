@@ -1,7 +1,7 @@
 {
-    "log_file": "/etc/vanilla/first-setup.log",
-    "distro_name": "Vanilla OS",
-    "distro_logo": "org.vanillaos.FirstSetup", 
+    "log_file": "/etc/yoyo/first-setup.log",
+    "distro_name": "Yoyo OS",
+    "distro_logo": "org.yoyoos.FirstSetup", 
     "pre_run": [
         "export DEBIAN_FRONTEND=noninteractive",
         "apt update", 
@@ -16,8 +16,8 @@
         "get-involved": {
              "icon": "system-users-symbolic",
              "title": "Get Involved",
-             "description": "Vanilla OS is a community project. You can contribute to the project by reporting bugs, suggesting new features, or even by writing code.",
-             "read_more_link": "https://vanillaos.org/get-involved"
+             "description": "Yoyo OS is a community project. You can contribute to the project by reporting bugs, suggesting new features, or even by writing code.",
+             "read_more_link": "https://yoyoos.org/get-involved"
         },
         "community": {
              "icon": "help-faq-symbolic",
@@ -28,14 +28,14 @@
         "abroot": {
              "icon": "security-medium-symbolic",
              "title": "Immutable and Atomic",
-             "description": "Vanilla OS is an immutable and atomic Linux distribution. It is based on Ubuntu and uses ABRoot to provide atomic transactions.",
-             "read_more_link": "https://documentation.vanillaos.org/docs/ABRoot/"
+             "description": "Yoyo OS is an immutable and atomic Linux distribution. It is based on Ubuntu and uses ABRoot to provide atomic transactions.",
+             "read_more_link": "https://documentation.yoyoos.org/docs/ABRoot/"
         },
         "apx": {
-             "icon": "vanilla-container-terminal-symbolic",
+             "icon": "yoyo-container-terminal-symbolic",
              "title": "Sub-System Ready To Go",
-             "description": "Vanilla OS comes with Apx, a new package manager which installs software in integrated containers to prevent host compromise.",
-             "read_more_link": "https://documentation.vanillaos.org/docs/apx/"
+             "description": "Yoyo OS comes with Apx, a new package manager which installs software in integrated containers to prevent host compromise.",
+             "read_more_link": "https://documentation.yoyoos.org/docs/apx/"
         }
     },
     "steps": {
@@ -61,7 +61,7 @@
         "packages": {
             "template": "preferences",
             "is-advanced": true,
-            "icon": "vanilla-package-symbolic",
+            "icon": "yoyo-package-symbolic",
             "title": "Package Manager",
             "description": "Choose one or more package managers to install",
             "preferences": [
@@ -416,7 +416,7 @@
             "template": "yes-no",
             "is-advanced": true,
             "preset": false,
-            "icon": "vanilla-history-undo-symbolic",
+            "icon": "yoyo-history-undo-symbolic",
             "title": "Timeshift",
             "description": "Choose whether to install Timeshift to create snapshots of your system.",
             "buttons": {
@@ -452,7 +452,7 @@
                 "info": {
                     "type": "text",
                     "title": "About Proprietary Drivers",
-                    "text": "A proprietary driver has private code that neither Vanilla OS nor Ubuntu developers can review.\n\nSecurity and other updates are dependent on the driver vendor."
+                    "text": "A proprietary driver has private code that neither Yoyo OS nor Ubuntu developers can review.\n\nSecurity and other updates are dependent on the driver vendor."
                 }
             },
             "final": [
@@ -497,7 +497,7 @@
             "template": "yes-no",
             "is-advanced": true,
             "preset": true,
-            "icon": "vanilla-puzzle-piece-symbolic",
+            "icon": "yoyo-puzzle-piece-symbolic",
             "title": "Restricted Codecs",
             "description": "Choose whether to install restricted codecs and fonts.",
             "buttons": {

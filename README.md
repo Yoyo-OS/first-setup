@@ -1,12 +1,12 @@
 <div align="center">
-    <img src="data/icons/hicolor/scalable/apps/org.vanillaos.FirstSetup.svg" height="64">
-    <h1>Vanilla OS First Setup</h1>
-    <p>This utility is meant to be used in <a href="https://github.com/vanilla-os">Vanilla OS</a>
+    <img src="data/icons/hicolor/scalable/apps/org.yoyoos.FirstSetup.svg" height="64">
+    <h1>Yoyo OS First Setup</h1>
+    <p>This utility is meant to be used in <a href="https://github.com/yoyo-os">Yoyo OS</a>
     as a first-setup wizard. Its purpose is to help the user to configure the
     system to their needs, e.g. by configuring snap, flatpak, flathub, etc.</p>
     <hr />
-    <a href="https://hosted.weblate.org/engage/vanilla-os/">
-<img src="https://hosted.weblate.org/widgets/vanilla-os/-/control-center/svg-badge.svg" alt="Stato traduzione" />
+    <a href="https://hosted.weblate.org/engage/yoyo-os/">
+<img src="https://hosted.weblate.org/widgets/yoyo-os/-/control-center/svg-badge.svg" alt="Stato traduzione" />
 </a>
     <br />
     <img src="data/screenshot-1.png">
@@ -34,10 +34,10 @@ sudo ninja -C build install
 
 ## Run
 ```bash
-vanilla-first-setup
+yoyo-first-setup
 ```
 
 ### Using custom recipes
-Place a new recipe in `/etc/vanilla-first-setup/recipe.json` or launch the
-utility with the `VANILLA_CUSTOM_RECIPE` environment variable set to the path
+Place a new recipe in `/etc/yoyo-first-setup/recipe.json` or launch the
+utility with the `YOYO_CUSTOM_RECIPE` environment variable set to the path
 of the recipe.
