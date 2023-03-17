@@ -1,7 +1,8 @@
 name: Build release packages
 on:
-  tags:
-    - "v*" 
+  push:
+    tags:
+      - "v*" 
   workflow_dispatch:
 jobs:
   build-packages:
