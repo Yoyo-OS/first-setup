@@ -1,0 +1,38 @@
+name: Build continues release packages
+on:
+  # push推送时触发
+  push:
+
+  workflow_dispatch:
+jobs:
+  build-packages:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+
+      # Misc
+      # --------------------------------------
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(cat VERSION)
+
+      # Dependencies
+      # --------------------------------------
+      - name: Install build dependencies
+        run: |
+          sudo apt install -y debhelper python3 gettext build-essential desktop-file-utils ninja-build meson libadwaita-1-dev make
+
+      # Deb Build
+      # --------------------------------------
+      - name: Build .deb package
+        run: dpkg-buildpackage
+
+      # Release packages
+      # --------------------------------------        
+      - uses: "yoyo-os/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.PRIVATE_TOKEN }}"
+          prerelease: true
+          automatic_release_tag: "latest"
+          title: "continues release"
+          files: ../yoyo-first-setup_*.deb
