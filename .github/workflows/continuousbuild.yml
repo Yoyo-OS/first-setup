@@ -2,6 +2,8 @@ name: Build continues release packages
 on:
   # push推送时触发
   push:
+      branches:
+        - 'main'
 
   workflow_dispatch:
 jobs:
