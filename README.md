@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="data/icons/hicolor/scalable/apps/org.yoyoos.FirstSetup.svg" height="64">
+    <img src="data/icons/hicolor/scalable/apps/org.yoyoos.FirstSetup.svg" height="128">
     <h1>Yoyo OS First Setup</h1>
     <p>This utility is meant to be used in <a href="https://github.com/yoyo-os">Yoyo OS</a>
     as a first-setup wizard. Its purpose is to help the user to configure the
